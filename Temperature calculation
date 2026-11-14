@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main(){
+int temperature;
+
+printf("enter the temperature\n");
+scanf("%d",&temperature );
+
+if (temperature<=20)
+printf("wear a sweater \n");
+else if (temperature>20 && temperature<30)
+printf("Normal\n ");
+else
+printf("wear t-shirts and drink more water\n ");
+}

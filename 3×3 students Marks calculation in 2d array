@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main ()   {
+int marks [3][3];
+int sum=0;
+      printf("Enter students marks\n");
+      
+             for(int i=0; i<3; i++)
+               
+               for(int j=0; j<3; j++)
+                
+                scanf("%d", &marks[i][j]);
+                
+                 
+                 printf("The students marks are\n ");
+                 
+                   for(int i=0; i<3; i++)
+               
+               for(int j=0; j<3; j++)
+                
+              {  
+                printf("%d ",marks[i][j]);
+                sum=sum + marks [i][j];
+                printf("\n");
+                
+                
+                }
+                printf("sum=%d\n", sum);
+                
+                
+                
+                return 0;
+                }
+                
+                
+                
+                
+                
+                
+                
+                

@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+
+int main(){
+ 
+ int num1,num2;
+ printf("entre two numbers\n  ");
+ scanf("%d%d",&num1,&num2);
+ printf("addition of two numbers %d, \n", num1+num2);
+ printf(" substraction of two numbers %d, \n", num1-num2);
+ 
+printf(" multiplication two numbers %d, \n", num1*num2);
+
+printf(" division of two numbers %d, \n", num1/num2);
+ 
+ 
+return 0;
+}
